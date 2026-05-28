@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --ink: #080b22;
   --muted: #56607d;
   --paper: #f7f9ff;
@@ -756,12 +756,16 @@ h2 {
 }
 
 .community li::before {
-  content: "✓";
+  content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  color: var(--blue);
-  font-weight: 950;
+  top: 7px;
+  left: 1px;
+  width: 9px;
+  height: 9px;
+  border-top: 2px solid var(--blue);
+  border-right: 2px solid var(--blue);
+  transform: rotate(45deg);
+  border-radius: 1px;
 }
 
 .trust {
@@ -1029,3 +1033,4 @@ footer p {
     transform: translateX(calc(-7 * (236px + 16px)));
   }
 }
+
