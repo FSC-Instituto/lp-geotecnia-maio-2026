@@ -1,72 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" role="img" aria-labelledby="title desc">
-  <title id="title">Certificado reconhecido pelo MEC</title>
-  <desc id="desc">Frente de certificado da Faculdade Focus, sem nome de aluno.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 1190" role="img" aria-labelledby="title desc">
+  <title id="title">Certificado Faculdade Focus</title>
+  <desc id="desc">Frente do certificado da Faculdade Focus, com dados do aluno em branco.</desc>
   <defs>
-    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#f5f7ff"/>
+    <pattern id="slashes" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <rect width="34" height="34" fill="transparent"/>
+      <rect x="0" y="0" width="4" height="34" fill="#0d96d7"/>
+      <rect x="12" y="0" width="4" height="34" fill="#b8bec8"/>
+    </pattern>
+    <linearGradient id="focusBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#204a91"/>
+      <stop offset="1" stop-color="#3d2b86"/>
     </linearGradient>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0f4fc4"/>
-      <stop offset="1" stop-color="#2521c9"/>
-    </linearGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#11183f" flood-opacity=".16"/>
-    </filter>
   </defs>
 
-  <rect width="1200" height="850" fill="#eef2ff"/>
-  <rect x="54" y="54" width="1092" height="742" rx="14" fill="url(#paper)" filter="url(#softShadow)"/>
-  <rect x="78" y="78" width="1044" height="694" rx="8" fill="none" stroke="#d6dff8" stroke-width="4"/>
+  <rect width="1680" height="1190" fill="#fff"/>
+  <rect x="36" y="16" width="610" height="28" fill="url(#slashes)"/>
+  <rect x="1042" y="16" width="604" height="28" fill="url(#slashes)"/>
+  <rect x="36" y="1144" width="610" height="30" fill="url(#slashes)"/>
+  <rect x="1036" y="1144" width="610" height="30" fill="url(#slashes)"/>
 
-  <g fill="none" stroke-width="5" opacity=".95">
-    <path d="M95 102h260" stroke="#0f4fc4" stroke-dasharray="10 8"/>
-    <path d="M845 102h260" stroke="#0f4fc4" stroke-dasharray="10 8"/>
+  <g transform="translate(720 14)">
+    <g transform="translate(0 0) scale(1.18)">
+      <path d="M44 62C75 4 132 3 178 25C127 27 92 51 77 98C66 94 55 82 44 62Z" fill="#3d2b86"/>
+      <path d="M22 87C42 33 91 21 142 35C92 43 62 67 49 112C38 108 28 99 22 87Z" fill="#2d2cb4"/>
+      <path d="M14 119C35 78 74 63 119 69C80 82 55 102 44 136C31 134 20 128 14 119Z" fill="#204a91"/>
+    </g>
+    <text x="194" y="34" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="12" fill="#3d2b86">FACULDADE</text>
+    <text x="192" y="80" font-family="Arial Black, Arial, sans-serif" font-size="54" font-weight="900" fill="#3d2b86">FOCUS</text>
   </g>
 
-  <g transform="translate(555 70)">
-    <circle cx="0" cy="22" r="22" fill="#0f4fc4"/>
-    <path d="M-7 28c11-24 30-24 46-16-17 1-28 10-33 27z" fill="#2521c9"/>
-    <text x="40" y="20" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="800" fill="#2521c9">FACULDADE</text>
-    <text x="40" y="48" font-family="Montserrat, Arial, sans-serif" font-size="42" font-weight="900" fill="#2521c9">FOCUS</text>
+  <text x="840" y="194" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#060606">Faculdade Focus</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#858585" text-anchor="middle">
+    <text x="840" y="222">Portaria de Credenciamento Institucional nº 533, de 06/06/2018 - Publicação no D.O.U. de 07/06/2018.</text>
+    <text x="840" y="246">Portaria de Recredenciamento Institucional nº 312, de 16/04/2025 - Publicação no D.O.U. de 22/04/2025.</text>
+    <text x="840" y="270">Portaria do Credenciamento EaD nº 314, de 02/03/2020 - Publicação no D.O.U. de 04/03/2020.</text>
+    <text x="840" y="294">GRUPO FOCUS DE EDUCAÇÃO LTDA - CNPJ: 14.334.814/0001-77</text>
+  </g>
+  <rect x="710" y="312" width="260" height="5" fill="#d4d4d4"/>
+
+  <g transform="translate(1408 145)">
+    <circle cx="82" cy="82" r="84" fill="none" stroke="#080808" stroke-width="3"/>
+    <circle cx="82" cy="82" r="58" fill="none" stroke="#080808" stroke-width="2"/>
+    <text x="82" y="34" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#080808" transform="rotate(-28 82 82)">REPÚBLICA FEDERATIVA DO BRASIL</text>
+    <text x="82" y="91" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#080808">ORDEM E PROGRESSO</text>
+    <g fill="#080808">
+      <circle cx="51" cy="65" r="2"/><circle cx="63" cy="104" r="2"/><circle cx="82" cy="58" r="2"/><circle cx="100" cy="114" r="2"/>
+      <circle cx="115" cy="75" r="2"/><circle cx="74" cy="129" r="2"/><circle cx="129" cy="100" r="2"/><circle cx="44" cy="94" r="2"/>
+      <circle cx="92" cy="142" r="2"/><circle cx="111" cy="132" r="2"/>
+    </g>
   </g>
 
-  <text x="600" y="190" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="32" font-weight="800" fill="#10152f">Faculdade Focus</text>
-  <text x="600" y="238" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="500" fill="#626a86">Credenciada pela Portaria MEC nº 1.004, de 17 de agosto de 2017</text>
+  <text x="840" y="438" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800" fill="#204a91">CERTIFICADO</text>
 
-  <g transform="translate(928 145)">
-    <circle cx="78" cy="78" r="62" fill="none" stroke="#1d2446" stroke-width="3"/>
-    <circle cx="78" cy="78" r="46" fill="none" stroke="#1d2446" stroke-width="2"/>
-    <text x="78" y="74" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="900" fill="#1d2446">RECONHECIDO</text>
-    <text x="78" y="96" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="900" fill="#2521c9">MEC</text>
+  <text x="840" y="519" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#202020">
+    O Diretor Geral da Faculdade Focus, no uso de suas atribuições confere o presente certificado a
+  </text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#202020">
+    <text x="122" y="686">Brasileiro, nascido em</text>
+    <line x1="356" y1="688" x2="526" y2="688" stroke="#202020" stroke-width="1.5"/>
+    <text x="548" y="686">, portador do CPF n.º</text>
+    <line x1="806" y1="688" x2="1010" y2="688" stroke="#202020" stroke-width="1.5"/>
+    <text x="1022" y="686">e do RG: n.º</text>
+    <line x1="1164" y1="688" x2="1395" y2="688" stroke="#202020" stroke-width="1.5"/>
+    <text x="1408" y="686">, que concluiu</text>
+
+    <text x="118" y="727">nesta instituição a especialização Pós-Graduação Lato Sensu em Engenharia de Fundações e Contenções, realizado no</text>
+    <text x="420" y="768">período de 21/06/2023 a 31/12/2024, com carga horária de 360 horas.</text>
   </g>
 
-  <text x="600" y="340" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="54" font-weight="900" fill="url(#blue)">CERTIFICADO</text>
-  <rect x="322" y="382" width="556" height="4" rx="2" fill="#2521c9" opacity=".22"/>
+  <text x="840" y="838" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#202020">Cascavel, 01 de maio de 2025.</text>
 
-  <text x="600" y="450" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="19" font-weight="500" fill="#323a55">
-    Certificamos que concluiu o curso de Pós-Graduação Lato Sensu em
-  </text>
-  <text x="600" y="490" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="27" font-weight="800" fill="#10152f">
-    Engenharia de Fundações e Contenções
-  </text>
-  <text x="600" y="532" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="17" font-weight="500" fill="#626a86">
-    com carga horária e critérios acadêmicos reconhecidos pela instituição.
-  </text>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#202020">
+    <path d="M254 1004C303 944 364 889 367 913C369 932 304 983 258 1015C294 994 331 980 340 992C351 1006 321 1029 289 1020C269 1015 264 1009 254 1004Z" fill="none" stroke="#202020" stroke-width="2"/>
+    <line x1="118" y1="1034" x2="494" y2="1034" stroke="#202020" stroke-width="1.5"/>
+    <text x="306" y="1060" text-anchor="middle" font-size="22">Patrícia Paiva Gonçalves Bispo</text>
+    <text x="306" y="1085" text-anchor="middle" font-size="18">Diretora Acadêmica</text>
 
-  <rect x="356" y="575" width="488" height="54" rx="27" fill="#fff" stroke="#d9e0f7"/>
-  <text x="600" y="610" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="700" fill="#8c94ad">
-    Nome do aluno removido
-  </text>
+    <path d="M730 1016C770 972 923 978 944 1019C888 1006 799 1016 730 1016ZM890 1015C884 938 931 919 942 973C950 1014 929 1037 890 1015Z" fill="none" stroke="#202020" stroke-width="2"/>
+    <line x1="655" y1="1034" x2="1030" y2="1034" stroke="#202020" stroke-width="1.5"/>
+    <text x="842" y="1060" text-anchor="middle" font-size="22">Ruy Wagner Astrath</text>
+    <text x="842" y="1085" text-anchor="middle" font-size="18">Diretor Geral Faculdade Focus</text>
 
-  <text x="600" y="682" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="17" font-weight="500" fill="#323a55">Cascavel, Paraná</text>
-
-  <g stroke="#10152f" stroke-width="2" opacity=".7">
-    <path d="M210 704h210"/>
-    <path d="M790 704h210"/>
+    <line x1="1190" y1="1034" x2="1564" y2="1034" stroke="#202020" stroke-width="1.5"/>
+    <text x="1377" y="1085" text-anchor="middle" font-size="18">Aluno</text>
   </g>
-  <text x="315" y="736" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="700" fill="#323a55">Direção Acadêmica</text>
-  <text x="895" y="736" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="700" fill="#323a55">Coordenação</text>
 
-  <rect x="78" y="756" width="1044" height="16" rx="8" fill="url(#blue)" opacity=".12"/>
+  <g transform="translate(810 1114)">
+    <rect x="0" y="0" width="62" height="76" fill="#3d2b86"/>
+    <path d="M18 46C31 22 55 22 75 31C53 32 38 42 32 62C27 60 22 54 18 46Z" fill="#fff" transform="scale(.72) translate(10 18)"/>
+    <path d="M12 62C25 43 43 36 62 38C44 46 32 55 26 70C19 69 15 66 12 62Z" fill="#fff" transform="scale(.72) translate(10 18)"/>
+  </g>
 </svg>
