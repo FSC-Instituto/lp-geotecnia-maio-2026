@@ -67,6 +67,10 @@ a {
   margin-inline: auto;
 }
 
+.hero.section-shell {
+  width: min(1480px, calc(100% - 72px));
+}
+
 .liquid-glass,
 .dark-glass {
   position: relative;
@@ -191,12 +195,12 @@ form button:hover {
 .hero {
   position: relative;
   display: grid;
-  min-height: 106svh;
-  grid-template-columns: minmax(0, 0.78fr) minmax(500px, 1.12fr);
+  min-height: 100svh;
+  grid-template-columns: minmax(430px, 0.78fr) minmax(620px, 1.22fr);
   grid-template-areas:
     "copy media"
     "form media";
-  gap: 26px 28px;
+  gap: 24px 46px;
   align-items: center;
   padding: 72px 0 56px;
   overflow: visible;
@@ -401,23 +405,21 @@ h1 {
   object-position: center;
 }
 
-.mockup-image {
-  width: min(62vw, 760px);
-  aspect-ratio: 1 / 1;
-  justify-self: center;
-  margin-right: -82px;
+.hero-collage {
+  width: min(58vw, 910px);
+  aspect-ratio: 970 / 842;
+  justify-self: end;
+  margin-right: -20px;
   border-radius: 0;
-  filter: drop-shadow(0 34px 58px rgba(8, 11, 34, 0.22));
+  filter: none;
 }
 
-.mockup-image img {
+.hero-collage img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   object-position: center;
   border-radius: 0;
-  transform: scale(1.38);
-  transform-origin: center;
 }
 
 .media-chip {
@@ -850,7 +852,7 @@ footer p {
   }
 
   .brand img {
-    width: 106px;
+    width: 94px;
   }
 
   .topbar nav {
@@ -870,15 +872,34 @@ footer p {
   .hero {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "copy"
-      "media"
-      "form";
+      "brand"
+      "headline"
+      "leadtext"
+      "form"
+      "media";
     min-height: auto;
-    padding-top: 52px;
+    padding-top: 42px;
+    gap: 18px;
   }
 
   .hero-copy {
+    display: contents;
+    opacity: 1;
+    transform: none;
     padding-bottom: 0;
+  }
+
+  .hero-brand {
+    grid-area: brand;
+    margin-bottom: 6px;
+  }
+
+  .hero-copy h1 {
+    grid-area: headline;
+  }
+
+  .hero-copy p {
+    grid-area: leadtext;
   }
 
   .hero-media {
@@ -890,18 +911,15 @@ footer p {
     justify-self: center;
   }
 
-  .mockup-image {
+  .hero-collage {
     max-width: min(100%, 520px);
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 970 / 842;
     margin-right: 0;
-  }
-
-  .mockup-image img {
-    transform: scale(1.18);
   }
 
   .lead-card {
     max-width: none;
+    margin-top: 4px;
   }
 
   .intro-grid,
@@ -934,6 +952,10 @@ footer p {
     width: min(100% - 28px, 1180px);
   }
 
+  .hero.section-shell {
+    width: min(100% - 28px, 1180px);
+  }
+
   .topbar {
     top: 10px;
     width: calc(100% - 20px);
@@ -946,7 +968,7 @@ footer p {
   }
 
   .brand img {
-    width: 92px;
+    width: 72px;
   }
 
   .topbar-cta {
@@ -964,6 +986,7 @@ footer p {
 
   .hero {
     padding-bottom: 28px;
+    gap: 16px;
   }
 
   .hero-brand {
@@ -971,20 +994,23 @@ footer p {
   }
 
   h1 {
-    font-size: 27px;
-    line-height: 1.28;
+    font-size: 30px;
+    line-height: 1.18;
   }
 
   .hero-copy p {
     font-size: 16px;
+    line-height: 1.58;
+    margin-top: 0;
   }
 
   .hero-media {
     max-width: 100%;
   }
 
-  .mockup-image {
-    max-width: min(100%, 420px);
+  .hero-collage {
+    max-width: min(112%, 460px);
+    margin-top: 4px;
   }
 
   .media-chip {
