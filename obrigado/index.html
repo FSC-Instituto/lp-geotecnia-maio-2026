@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -46,14 +47,16 @@
             ></vturb-smartplayer>
           </div>
 
-          <div class="schedule-card liquid-glass" data-reveal>
-            <div>
+          <div class="calendly-card liquid-glass" data-reveal>
+            <div class="calendly-copy">
               <h2>Agende sua reunião com a equipe FSC</h2>
               <p>Escolha o melhor horário para conversar com o time pedagógico e entender os próximos passos da Pós.</p>
             </div>
-            <a class="button primary" href="https://link.fundacoessemcomplicacoes.com.br/agendamentofsc" target="_blank" rel="noopener">
-              Agendar reunião
-            </a>
+            <div
+              class="calendly-inline-widget"
+              data-url="https://link.fundacoessemcomplicacoes.com.br/agendamentofsc"
+              title="Agendamento FSC"
+            ></div>
           </div>
         </div>
       </section>
@@ -217,5 +220,6 @@
       s.async = true;
       document.head.appendChild(s);
     </script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
   </body>
 </html>
